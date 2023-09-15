@@ -117,138 +117,400 @@
         <section class="container top-products">
             <h1 class="heading-1">Mejores Productos</h1>
 
-            <div class="container-options">
-                <span class="active destacados">Destacados</span>
-                <span>Más Recientes</span>
-                <span>Más Vendidos</span>
+            <div class="container-options toggler-group">
+                <span class="destacados active" data-target="#container-destacado">Destacados</span>
+                <span data-target="#container-recientes">Más Recientes</span>
+                <span data-target="#container-vendidos">Más Vendidos</span>
             </div>
 
-            <div class="container-products">
-                <!-- PRODUCTO 1 -->
-                <div class="card-product">
-                    <div class="container-img">
-                        <img src="imagenes/essential.jpg" alt="bici">
-                        <span class="discount">-27%</span>
-                        <div class="button-group">
-                            <span>
-                                <i class="fa-regular fa-eye"></i>
+            <div class="container-values">
+                <div class="container-products" id="container-destacado">
+                    <!-- PRODUCTO 1 -->
+                    <div class="card-product">
+                        <div class="container-img">
+                            <img src="imagenes/essential.jpg" alt="bici">
+                            <span class="discount">-27%</span>
+                            <div class="button-group">
+                                <span>
+                                    <i class="fa-regular fa-eye"></i>
+                                </span>
+                                <span>
+                                    <i class="fa-regular fa-heart"></i>
+                                </span>
+                                <span>
+                                    <i class="fa-solid fa-code-compare"></i>
+                                </span>
+                            </div>
+                        </div>
+                        <div class="content-card-product">
+                            <div class="stars">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star-half-stroke"></i>
+                                <i class="fa-regular fa-star"></i>
+                            </div>
+                            <h3>Xiaomi Essential</h3>
+                            <span class="add-cart">
+                                <i class="fa-solid fa-basket-shopping"></i>
                             </span>
-                            <span>
-                                <i class="fa-regular fa-heart"></i>
-                            </span>
-                            <span>
-                                <i class="fa-solid fa-code-compare"></i>
-                            </span>
+                            <p class="price">219.99€ <span>299.99€</span></p>
                         </div>
                     </div>
-                    <div class="content-card-product">
-                        <div class="stars">
-                            <i class="fa-solid fa-star"></i>
-                            <i class="fa-solid fa-star"></i>
-                            <i class="fa-solid fa-star"></i>
-                            <i class="fa-solid fa-star-half-stroke"></i>
-                            <i class="fa-regular fa-star"></i>   
+                    <!-- PRODUCTO 2 -->
+                    <div class="card-product">
+                        <div class="container-img">
+                            <img src="imagenes/smartgyro.jpg" alt="bici">
+                            <span class="discount">-10%</span>
+                            <div class="button-group">
+                                <span>
+                                    <i class="fa-regular fa-eye"></i>
+                                </span>
+                                <span>
+                                    <i class="fa-regular fa-heart"></i>
+                                </span>
+                                <span>
+                                    <i class="fa-solid fa-code-compare"></i>
+                                </span>
+                            </div>
                         </div>
-                        <h3>Xiaomi Essential</h3>
-                        <span class="add-cart">
-                            <i class="fa-solid fa-basket-shopping"></i>
-                        </span>
-                        <p class="price">219.99€ <span>299.99€</span></p>
+                        <div class="content-card-product">
+                            <div class="stars">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                            </div>
+                            <h3>Smartgyro Crossover Dual PRO</h3>
+                            <span class="add-cart">
+                                <i class="fa-solid fa-basket-shopping"></i>
+                            </span>
+                            <p class="price">879.00€ <span>969.00€</span></p>
+                        </div>
+                    </div>
+                    <!-- PRODUCTO 3 -->
+                    <div class="card-product">
+                        <div class="container-img">
+                            <img src="imagenes/canyon.jpg" alt="bici">
+                            <div class="button-group">
+                                <span>
+                                    <i class="fa-regular fa-eye"></i>
+                                </span>
+                                <span>
+                                    <i class="fa-regular fa-heart"></i>
+                                </span>
+                                <span>
+                                    <i class="fa-solid fa-code-compare"></i>
+                                </span>
+                            </div>
+                        </div>
+                        <div class="content-card-product">
+                            <div class="stars">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star-half-stroke"></i>
+                                <i class="fa-regular fa-star"></i>
+                            </div>
+                            <h3>Canyon</h3>
+                            <span class="add-cart">
+                                <i class="fa-solid fa-basket-shopping"></i>
+                            </span>
+                            <p class="price">4999.99€</p>
+                        </div>
+                    </div>
+                    <!-- PRODUCTO 4 -->
+                    <div class="card-product">
+                        <div class="container-img">
+                            <img src="imagenes/regalo.jpg" alt="bici">
+                            <span class="discount">-100% (Gratis)</span>
+                            <div class="button-group">
+                                <span>
+                                    <i class="fa-regular fa-eye"></i>
+                                </span>
+                                <span>
+                                    <i class="fa-regular fa-heart"></i>
+                                </span>
+                                <span>
+                                    <i class="fa-solid fa-code-compare"></i>
+                                </span>
+                            </div>
+                        </div>
+                        <div class="content-card-product">
+                            <div class="stars">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star-half-stroke"></i>
+                            </div>
+                            <h3>Bici Eléctrica Regalo</h3>
+                            <span class="add-cart">
+                                <i class="fa-solid fa-basket-shopping"></i>
+                            </span>
+                            <p class="price">Gratis <span>3999.99€</span></p>
+                        </div>
                     </div>
                 </div>
-                <!-- PRODUCTO 2 -->
-                <div class="card-product">
-                    <div class="container-img">
-                        <img src="imagenes/smartgyro.jpg" alt="bici">
-                        <span class="discount">-10%</span>
-                        <div class="button-group">
+
+                <div class="container-products" id="container-recientes" style="display: none">
+                    <!-- PRODUCTO 1 -->
+                    <div class="card-product">
+                        <div class="container-img">
+                            <img src="imagenes/essential.jpg" alt="bici">
+                            <span class="discount">-27%</span>
+                            <div class="button-group">
+                                <span>
+                                    <i class="fa-regular fa-eye"></i>
+                                </span>
+                                <span>
+                                    <i class="fa-regular fa-heart"></i>
+                                </span>
+                                <span>
+                                    <i class="fa-solid fa-code-compare"></i>
+                                </span>
+                            </div>
+                        </div>
+                        <div class="content-card-product">
+                            <div class="stars">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star-half-stroke"></i>
+                                <i class="fa-regular fa-star"></i>
+                            </div>
+                            <h3>Xiaomi Essential</h3>
+                            <span class="add-cart">
+                                <i class="fa-solid fa-basket-shopping"></i>
+                            </span>
+                            <p class="price">219.99€ <span>299.99€</span></p>
+                        </div>
+                    </div>
+                    <!-- PRODUCTO 2 -->
+                    <div class="card-product">
+                        <div class="container-img">
+                            <img src="imagenes/smartgyro.jpg" alt="bici">
+                            <span class="discount">-10%</span>
+                            <div class="button-group">
+                                <span>
+                                    <i class="fa-regular fa-eye"></i>
+                                </span>
+                                <span>
+                                    <i class="fa-regular fa-heart"></i>
+                                </span>
+                                <span>
+                                    <i class="fa-solid fa-code-compare"></i>
+                                </span>
+                            </div>
+                        </div>
+                        <div class="content-card-product">
+                            <div class="stars">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                            </div>
+                            <h3>Smartgyro Crossover Dual PRO</h3>
+                            <span class="add-cart">
+                                <i class="fa-solid fa-basket-shopping"></i>
+                            </span>
+                            <p class="price">879.00€ <span>969.00€</span></p>
+                        </div>
+                    </div>
+                    <!-- PRODUCTO 3 -->
+                    <div class="card-product">
+                        <div class="container-img">
+                            <img src="imagenes/canyon.jpg" alt="bici">
+                            <div class="button-group">
+                                <span>
+                                    <i class="fa-regular fa-eye"></i>
+                                </span>
+                                <span>
+                                    <i class="fa-regular fa-heart"></i>
+                                </span>
+                                <span>
+                                    <i class="fa-solid fa-code-compare"></i>
+                                </span>
+                            </div>
+                        </div>
+                        <div class="content-card-product">
+                            <div class="stars">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star-half-stroke"></i>
+                                <i class="fa-regular fa-star"></i>
+                            </div>
+                            <h3>Canyon</h3>
+                            <span class="add-cart">
+                                <i class="fa-solid fa-basket-shopping"></i>
+                            </span>
+                            <p class="price">4999.99€</p>
+                        </div>
+                    </div>
+                    <!-- PRODUCTO 4 -->
+                    <!-- <div class="card-product">
+                        <div class="container-img">
+                            <img src="imagenes/regalo.jpg" alt="bici">
+                            <span class="discount">-100% (Gratis)</span>
+                            <div class="button-group">
                             <span>
                                 <i class="fa-regular fa-eye"></i>
                             </span>
-                            <span>
+                                <span>
                                 <i class="fa-regular fa-heart"></i>
                             </span>
-                            <span>
+                                <span>
                                 <i class="fa-solid fa-code-compare"></i>
                             </span>
+                            </div>
                         </div>
-                    </div>
-                    <div class="content-card-product">
-                        <div class="stars">
-                            <i class="fa-solid fa-star"></i>
-                            <i class="fa-solid fa-star"></i>
-                            <i class="fa-solid fa-star"></i>
-                            <i class="fa-solid fa-star"></i>
-                            <i class="fa-solid fa-star"></i>
-                        </div>
-                        <h3>Smartgyro Crossover Dual PRO</h3>
-                        <span class="add-cart">
+                        <div class="content-card-product">
+                            <div class="stars">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star-half-stroke"></i>
+                            </div>
+                            <h3>Bici Eléctrica Regalo</h3>
+                            <span class="add-cart">
                             <i class="fa-solid fa-basket-shopping"></i>
                         </span>
-                        <p class="price">879.00€ <span>969.00€</span></p>
-                    </div>
+                            <p class="price">Gratis <span>3999.99€</span></p>
+                        </div>
+                    </div> -->
                 </div>
-                <!-- PRODUCTO 3 -->
-                <div class="card-product">
-                    <div class="container-img">
-                        <img src="imagenes/canyon.jpg" alt="bici">
-                        <div class="button-group">
-                            <span>
-                                <i class="fa-regular fa-eye"></i>
+
+                <div class="container-products" id="container-vendidos" style="display: none">
+                    <!-- PRODUCTO 1 -->
+                    <div class="card-product">
+                        <div class="container-img">
+                            <img src="imagenes/essential.jpg" alt="bici">
+                            <span class="discount">-27%</span>
+                            <div class="button-group">
+                                <span>
+                                    <i class="fa-regular fa-eye"></i>
+                                </span>
+                                <span>
+                                    <i class="fa-regular fa-heart"></i>
+                                </span>
+                                <span>
+                                    <i class="fa-solid fa-code-compare"></i>
+                                </span>
+                            </div>
+                        </div>
+                        <div class="content-card-product">
+                            <div class="stars">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star-half-stroke"></i>
+                                <i class="fa-regular fa-star"></i>
+                            </div>
+                            <h3>Xiaomi Essential</h3>
+                            <span class="add-cart">
+                                <i class="fa-solid fa-basket-shopping"></i>
                             </span>
-                            <span>
-                                <i class="fa-regular fa-heart"></i>
-                            </span>
-                            <span>
-                                <i class="fa-solid fa-code-compare"></i>
-                            </span>
+                            <p class="price">219.99€ <span>299.99€</span></p>
                         </div>
                     </div>
-                    <div class="content-card-product">
-                        <div class="stars">
-                            <i class="fa-solid fa-star"></i>
-                            <i class="fa-solid fa-star"></i>
-                            <i class="fa-solid fa-star"></i>
-                            <i class="fa-solid fa-star-half-stroke"></i>
-                            <i class="fa-regular fa-star"></i>   
+                    <!-- PRODUCTO 2 -->
+                    <div class="card-product">
+                        <div class="container-img">
+                            <img src="imagenes/smartgyro.jpg" alt="bici">
+                            <span class="discount">-10%</span>
+                            <div class="button-group">
+                                <span>
+                                    <i class="fa-regular fa-eye"></i>
+                                </span>
+                                <span>
+                                    <i class="fa-regular fa-heart"></i>
+                                </span>
+                                <span>
+                                    <i class="fa-solid fa-code-compare"></i>
+                                </span>
+                            </div>
                         </div>
-                        <h3>Canyon</h3>
-                        <span class="add-cart">
-                            <i class="fa-solid fa-basket-shopping"></i>
-                        </span>
-                        <p class="price">4999.99€</p>
+                        <div class="content-card-product">
+                            <div class="stars">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                            </div>
+                            <h3>Smartgyro Crossover Dual PRO</h3>
+                            <span class="add-cart">
+                                <i class="fa-solid fa-basket-shopping"></i>
+                            </span>
+                            <p class="price">879.00€ <span>969.00€</span></p>
+                        </div>
                     </div>
-                </div>
-                <!-- PRODUCTO 4 -->
-                <div class="card-product">
-                    <div class="container-img">
-                        <img src="imagenes/regalo.jpg" alt="bici">
-                        <span class="discount">-100% (Gratis)</span>
-                        <div class="button-group">
-                            <span>
-                                <i class="fa-regular fa-eye"></i>
+                    <!-- PRODUCTO 3 -->
+                    <div class="card-product">
+                        <div class="container-img">
+                            <img src="imagenes/canyon.jpg" alt="bici">
+                            <div class="button-group">
+                                <span>
+                                    <i class="fa-regular fa-eye"></i>
+                                </span>
+                                <span>
+                                    <i class="fa-regular fa-heart"></i>
+                                </span>
+                                <span>
+                                    <i class="fa-solid fa-code-compare"></i>
+                                </span>
+                            </div>
+                        </div>
+                        <div class="content-card-product">
+                            <div class="stars">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star-half-stroke"></i>
+                                <i class="fa-regular fa-star"></i>
+                            </div>
+                            <h3>Canyon</h3>
+                            <span class="add-cart">
+                                <i class="fa-solid fa-basket-shopping"></i>
                             </span>
-                            <span>
-                                <i class="fa-regular fa-heart"></i>
-                            </span>
-                            <span>
-                                <i class="fa-solid fa-code-compare"></i>
-                            </span>
+                            <p class="price">4999.99€</p>
                         </div>
                     </div>
-                    <div class="content-card-product">
-                        <div class="stars">
-                            <i class="fa-solid fa-star"></i>
-                            <i class="fa-solid fa-star"></i>
-                            <i class="fa-solid fa-star"></i>
-                            <i class="fa-solid fa-star"></i>
-                            <i class="fa-solid fa-star-half-stroke"></i>   
+                    <!-- PRODUCTO 4 -->
+                    <div class="card-product">
+                        <div class="container-img">
+                            <img src="imagenes/regalo.jpg" alt="bici">
+                            <span class="discount">-100% (Gratis)</span>
+                            <div class="button-group">
+                                <span>
+                                    <i class="fa-regular fa-eye"></i>
+                                </span>
+                                <span>
+                                    <i class="fa-regular fa-heart"></i>
+                                </span>
+                                <span>
+                                    <i class="fa-solid fa-code-compare"></i>
+                                </span>
+                            </div>
                         </div>
-                        <h3>Bici Eléctrica Regalo</h3>
-                        <span class="add-cart">
-                            <i class="fa-solid fa-basket-shopping"></i>
-                        </span>
-                        <p class="price">Gratis <span>3999.99€</span></p>
+                        <div class="content-card-product">
+                            <div class="stars">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star-half-stroke"></i>
+                            </div>
+                            <h3>Bici Eléctrica Regalo</h3>
+                            <span class="add-cart">
+                                <i class="fa-solid fa-basket-shopping"></i>
+                            </span>
+                            <p class="price">Gratis <span>3999.99€</span></p>
+                        </div>
                     </div>
                 </div>
             </div>
