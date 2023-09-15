@@ -1,0 +1,2 @@
+Vale, quiero que la seccion de mejores productos, al darle a mas recientes, o a mas vendidos, cambien los 4 productos de debajo a otros 4, que en este caso pueden ser los que sean porque cuando lo coja de php será automatico.
+Por ahora eso, porque esta es la index page, y es la "maqueta", la que le voy a enseñar.
